@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINK TO DROPDOWN ICON -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keyboard_arrow_down" /> 
+
+    <!-- LINK TO OTHER NAVBAR ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="shortcut icon" href="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" type="image/x-icon">
+    
+    <!-- Include Font Awesome for my footer icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <title>Shoparl</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER-->
+    <div class="container">
+        <header class="header">
+            <a href="https://newyork.shopify.com/shoparlnewyorkpop-up" class="btn" target="_blank">
+                <h1>New York 2025 Pop up RSVP NOW!! >></h1>
+            </a>
+        </header>
+    </div>
+    <!-- NAVBAR SECTION -->
+    
+    <nav class="navbar">
+
+        <div class="logo">    
+            <img src="//shoparl.co/cdn/shop/files/Untitled-1.png?v=1705350745&amp;width=600" alt="Shop ARL" srcset="//shoparl.co/cdn/shop/files/Untitled-1.png?v=1705350745&amp;width=120 120w, //shoparl.co/cdn/shop/files/Untitled-1.png?v=1705350745&amp;width=180 180w, //shoparl.co/cdn/shop/files/Untitled-1.png?v=1705350745&amp;width=240 240w" width="120" height="95.35617673579803" loading="eager" class="header__heading-logo motion-reduce" sizes="(max-width: 240px) 50vw, 120px">
+        </div>
+        
+        <div class="nav-list">
+            <span><a class="active" href="http://127.0.0.1:5500/index.html">Home</a></span>
+            <button class="dropdown">
+                <a href="#" class="dropdown-toggle">Shop</a>
+                <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                <span class="dropdown-menu">
+                    <a href="https://shoparl.co/collections/all-products">All</a>
+                    <a href="https://shoparl.co/collections/planners-1">Planner</a>
+                    <a href="https://shoparl.co/collections/dotted-notebooks">Notebooks</a>
+                    <a href="https://shoparl.co/collections/accessories">Bags & Cases</a>
+                    <a href="https://shoparl.co/collections/stickers">Stickers</a>
+                    <a href="https://shoparl.co/collections/washi-tapes">Washi Tapes</a>
+                    <a href="https://shoparl.co/collections/digital">Digital</a>
+                </span>
+            </button>
+            
+            <span><a href="https://shoparl.co/collections/new-collection">NEW</a></span>
+            <span><a href="https://shoparl.co/pages/contact">Contact</a></span>
+            <span><a href="https://shoparl.co/pages/about">About</a></span>
+        </div>
+    
+        <div class="nav-icons">
+            <a href="#" id="search-icon"><i class="material-icons">search</i></a>
+            <a href="#" id="favorite-icon"><i class="material-icons">favorite</i></a>
+            <a href="https://shoparl.co/cart" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+                <svg class="icon icon-cart-empty" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+                  <path d="m15.75 11.8h-3.16l-.77 11.6a5 5 0 0 0 4.99 5.34h7.38a5 5 0 0 0 4.99-5.33l-.78-11.61zm0 1h-2.22l-.71 10.67a4 4 0 0 0 3.99 4.27h7.38a4 4 0 0 0 4-4.27l-.72-10.67h-2.22v.63a4.75 4.75 0 1 1 -9.5 0zm8.5 0h-7.5v.63a3.75 3.75 0 1 0 7.5 0z" fill="currentColor" fill-rule="evenodd"></path>
+                </svg>
+                <span class="visually-hidden">Cart</span>
+            </a>
+              
+            <a href="https://shopify.com/authentication/26053443670/login?client_id=972736cb-8f5d-4e0d-8bfe-6da7ce7cceb0&locale=en&redirect_uri=https%3A%2F%2Fshopify.com%2Fauthentication%2F26053443670%2Foauth%2Fauthorize%3Fclient_id%3D972736cb-8f5d-4e0d-8bfe-6da7ce7cceb0%26locale%3Den%26nonce%3De0adf2d9-8b36-4cb8-adb8-eabfb55e7edb%26redirect_uri%3Dhttps%253A%252F%252Faccount.shoparl.co%252Fcallback%253Fsource%253Dcore%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3D01JJX6QAEJ35JQPWHTDYZ2096S"><i class="material-icons">person</i></a>
+        </div>
+        <div id="search-form">
+            <input type="text" placeholder="Search...">
+            <button onclick="submitSearch()">Search</button>
+        </div>
+        
+    </nav>
+
+    <!-- BANNER WRAP -->
+    <div class="banner-wrap">
+        
+    
+        <div class="head-info">
+            <h1>Stay Organized in Style</h1>
+            <p>Bestselling 2025 planner & stylish tote bags!</p>
+            <button><a href="https://shoparl.co/collections/all">SHOP NOW</a></button>
+          </div>
+          
+    
+        <div class="image">
+            <div class="image1">
+            <img src="./assets/bag.jpg" alt="">
+            </div>
+            <div class="image2">
+            <img src="./assets/planner.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- OUR PRODUCT CARDS -->
+     <div class="sub-container">
+         <h1>Shop Our Products</h1>
+         <div class="box-card">
+             <div class="card">
+                <a href="https://shoparl.co/collections/planners-1">
+                    <img src="./assets/Doodle planner.jpg" alt="">
+                    <div class="card-text">
+                        <p>Planners</p>
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="https://shoparl.co/collections/dotted-notebooks">
+                    <img src="./assets/Notebook.jpg" alt="">
+                    <div class="card-text">
+                        <p>Notebooks</p>
+                        <span class="material-symbols-outlined hover">
+                            arrow_forward
+                        </span>
+                    </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="https://shoparl.co/collections/accessories">
+                    <img src="./assets/cases.jpg" alt="">
+                    <div class="card-text">
+                        <p>Bags & Cases</p>
+                        <span class="material-symbols-outlined hover">
+                            arrow_forward
+                        </span>
+                    </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="https://shoparl.co/collections/washi-tapes">
+                    <img src="./assets/tapes.jpg" alt="">
+                    <div class="card-text">
+                        <p>Tapes</p>
+                        <span class="material-symbols-outlined hover">
+                            arrow_forward
+                        </span>
+                    </div>
+                </a>
+             </div>
+             <div class="card">
+                <a href="https://shoparl.co/collections/digital">
+                    <img src="./assets/Digital goods.jpg" alt="">
+                    <div class="card-text">
+                        <p>Digital Goods</p>
+                        <span class="material-symbols-outlined hover">
+                            arrow_forward
+                        </span>
+                    </div>
+                </a>
+             </div>
+          </div>
+     </div>
+
+    <!-- NEW IN STORE -->
+
+    <div class="unbox">
+        <div class="new">
+            <div class="unbox-text">
+                <h1>Say hello to your new planner.</h1>
+                <p>Start your 2025 off with creativity & intention.</p>
+                <a href="https://shoparl.co/collections/planners-1">
+                    <button>Get started</button>
+                </a>
+                
+            </div>
+            <video width="260px" height="460px" autoplay playsinline muted loop>
+                <source src="./assets/Snapinst.app_video_AQM48aX6CoOegG7_ejp3JENx3DTqlNpk1WDb0EurMIBbnR9U9zx29XR1XLfciNJwS9iCG42ImhRnoHLoeyP6IheDcObq3FoziiVrZ_Q.mp4"
+                    type="video/mp4">
+            </video>
+            </div>
+        </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Join the Squad!</h3>
+                <form class="subscribe-form" action="/submit-form" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+                
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                    <li><a href="https://shoparl.co/pages/about">About Us</a></li>
+                    <li><a href="https://shoparl.co/pages/faq">Shop FAQ</a></li>
+                    <li><a href="https://shoparl.co/pages/returns">Shipping & Returns</a></li>
+                    <li><a href="https://shoparl.co/pages/contact">Contact Us</a></li>
+                    <li><a href="https://shoparl.co/policies/terms-of-service">Terms of Service</a></li>
+                    <li><a href="https://shoparl.co/pages/contact">Help</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li>
+                        <!-- Instagram Icon -->
+                        <a href="https://www.instagram.com/shoparl.co" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <!-- YouTube Icon -->
+                        <a href="https://www.youtube.com/amandarachlee" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <!-- Twitter Icon -->
+                        <a href="https://x.com/shop_ARL" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- currency & country selection -->
+        <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large" 
+            aria-expanded="false" aria-controls="HeaderCountryList" aria-describedby="HeaderCountryLabel">
+            <span>USD $ | South Africa</span>
+            <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"></path>
+            </svg>
+        </button>
+
+        <!-- Dropdown List -->
+        <ul id="HeaderCountryList" class="localization-dropdown">
+            <li><a href="https://shoparl.co/pages/contact" data-currency="USD" data-country="US">USD $ | United States</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="EUR" data-country="EU">EUR € | Europe</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="GBP" data-country="UK">GBP £ | United Kingdom</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="ZAR" data-country="ZA">ZAR R | South Africa</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="CAD" data-country="CA">CAD $ | Canada</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="AUD" data-country="AU">AUD $ | Australia</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="JPY" data-country="JP">JPY ¥ | Japan</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="INR" data-country="IN">INR ₹ | India</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="CNY" data-country="CN">CNY ¥ | China</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="SGD" data-country="SG">SGD $ | Singapore</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="BRL" data-country="BR">BRL R$ | Brazil</a></li>
+            <li><a href="https://shoparl.co/pages/contact" data-currency="MXN" data-country="MX">MXN $ | Mexico</a></li>
+        </ul>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Shoparl. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
